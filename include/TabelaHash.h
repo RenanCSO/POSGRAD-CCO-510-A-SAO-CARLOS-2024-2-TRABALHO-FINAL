@@ -1,6 +1,6 @@
 #ifndef ALUNO_H
 #define ALUNO_H
-#include "../aluno.h"
+#include "aluno.h"
 #endif
 
 typedef struct hash Hash;

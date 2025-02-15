@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "TabelaHash.h"
-#include "../ListaSequencial/ListaSequencial.h"
+#include "../include/TabelaHash.h"
+#include "../include/ListaSequencial.h"
 
 struct hash {
     int qtd, qtd_listas, qtd_colisoes, TABLE_SIZE;
