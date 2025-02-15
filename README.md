@@ -18,8 +18,8 @@ Os códigos fontes se baseiam na implatação das estruturas disponível em: htt
 
 Para compilar o projeto, utilize o comando:
 
-gcc -o main src/main.c src/TabelaHash.c src/ListaSequencial.c
+- `gcc -o main src/main.c src/TabelaHash.c src/ListaSequencial.c`
 
-## Para executar o programa principal, utilize o comando:
+Para executar o programa principal, utilize o comando:
 
-./main
+- `./main`
