@@ -13,7 +13,7 @@ int main() {
     struct aluno alunos;
     FILE *arquivo;
 
-    int TABLE_SIZE = 719;
+    int TABLE_SIZE = 10;
     Hash *tabelaHash = criaHash(TABLE_SIZE);
     if (tabelaHash == NULL) {
         printf("Erro ao criar a tabela hash\n");

@@ -55,7 +55,9 @@ int chaveDobra(int chave, int TABLE_SIZE){
     int num_bits = 10;
     int parte1 = chave >> num_bits;
     int parte2 = chave & (TABLE_SIZE-1);
-    return (parte1 ^ parte2);
+
+    // Código fonte base alterado para retornar um valor semppre válido para a tabela hash
+    return (parte1 ^ parte2) % TABLE_SIZE;
 }
 
 int chaveMultiplicacao(int chave, int TABLE_SIZE){
